@@ -1,0 +1,30 @@
+loop is a  continius expression.
+
+Types of loops
+
+1.for loop (varriable decleration; condition; counter;){statement}
+2.for in
+3.for of
+4.while
+5.do while
+
+	(A) Using for loop to say hello ten times
+
+ 1. for (var count = 1; count <= 10; count++){
+	console.log("Hello" + count)
+}
+
+	(B) Using for loop to build multiplication table
+
+1. fot (var num = 1;  num <=  12; num++){
+	var multiply = 2 * num;
+	console.log("2 X " + num + " = " + multiply);
+}
+
+
+var players =["Ronaldo" ,"messi","Gresman,"Nacho","ayomide","chukwuaz" ,"olapo"]
+for (let  i =0; i <players.length; 1++){
+	if(i % 2 != 0){
+		console.log(player[i])
+	}
+}
